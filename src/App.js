@@ -1,5 +1,10 @@
 import React,{useState,useEffect} from 'react' 
+import {CountReducer,CountReducer2} from './components/CountReducer';
 import ExHook from './components/ExHook';
+
+
+
+
 export default function App() {
   const [isOnline,setIsOnline] = useState(false)
 
@@ -14,7 +19,8 @@ export default function App() {
   return (
     <React.Fragment>
       <h1>React Hook</h1>
-      <ExHook />
+      {/* <ExHook /> */}
+      <CountReducer />
     </React.Fragment>
   );
 }

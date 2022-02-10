@@ -12,6 +12,7 @@ export default function ExHook(){
     useEffect(() => { console.log("จะทำงานแค่ครั้งเดียว") },[])
     useEffect(() => { console.log("ทุก state") })
     useEffect(() => { console.log("จะทำงานแค่ state count ") },[count])
+    
 
     return (
         <React.Fragment>
